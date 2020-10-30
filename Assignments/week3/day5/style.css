@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.navbar{
+  height: 50px;
+  width: 100%;
+  background-color:  #2B3E50;
+  position: relative;
+}
+
+.navlist{
+ position: absolute;
+ list-style: none;
+ right: 20px;
+ top: 5px;
+}
+ .navitem{
+ display: inline-block;
+ margin-right: 60px;
+ text-decoration: none;
+ color: white;
+}
+ 
+
+ section{
+  height: 100vh;
+  text-align: center;
+ }
+
+.navitem a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#home{
+  background-color: #1ABC9C;
+}
+
+.circule{
+  position: absolute;
+  display: grid;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #2B3E50;
+  margin:7em 30em;
+  
+  
+
+}
+P{
+ display: ;
+ text-align: center; 
+ vertical-align: middle;
+ font-size: xx-large; 
+ color: #fff;
+
+}
+.ab{
+  margin:2em;
+}
+.rubi{
+  height:150px;
+  width:200px;
+  border-radius: 10px;
+}
+.portfolio{
+  color: #2B3E50;
+  font-size: xx-large;
+}
+
+
+
+
+

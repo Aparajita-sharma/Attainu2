@@ -1,0 +1,58 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+
+
+p{
+  width: 50%;
+  
+}
+
+
+.square{
+  height:40vh;
+  width:40vw;
+
+}
+.purple{
+  background-color: purple;
+}
+
+.block{
+ 
+}
+.inline{
+  height:20px;
+  
+
+}
+
+
+.borderBox{
+  box-sizing: border-box; 
+  height: 200px;
+  width: 200px;
+  background-color:orange ;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid blue;
+}
+
+.contentBox{
+  height: 200px;
+  width: 200px;
+  background-color:orange ;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid blue;
+  
+}

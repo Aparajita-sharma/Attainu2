@@ -1,0 +1,152 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+ 
+
+}
+
+section{
+  height: 100vh;
+  text-align: center;
+}
+
+.navbar{
+  width:100%;
+  height:50px;
+  background-color:rgb(187, 78, 96);
+  position: relative;
+ 
+}
+
+.navlist{
+  position: absolute;
+  right:20px;
+  top:5px;
+  list-style: none;
+  
+}
+
+.navitem{
+  display: inline-block;
+  margin-right:60px;
+  text-shadow: 2px;
+}
+.navitem:hover{
+  background-color: rgb(255, 151, 151);
+}
+
+section#name{
+font-size: 100px;
+background-image: linear-gradient(to right,rgb(247, 160, 160),rgb(255, 27, 27));
+}
+
+.arrow{
+  height: 50px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: rgb(228, 22, 22);
+ 
+  border-style: none;
+}
+.arrow:hover{
+  background-color: rgb(247, 160, 160);
+}
+
+
+section#about{
+  font-size: 20px;
+  text-align: left;
+  background-image: linear-gradient( to right, pink, rgb(230, 34, 66) ) ;
+  }
+section#movie{
+ background-image: linear-gradient(to right, rgb(253, 108, 132), rgb(248, 81, 20)) ;
+}
+
+
+
+
+
+.navitem a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*flex Box*/
+
+
+.wrapper{
+  width: 60vw;
+  height: 30vh;
+  background-color: rgb(228, 22, 22);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.container{
+  display: flex;
+
+  
+  width: 95vw;
+  height: 40vh;
+
+  border-radius: 10px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ .container2{
+  display: flex;
+
+  
+  width: 95vw;
+  height: 40vh;
+
+  border-radius: 10px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+
+.box{ 
+  justify-content: space-around;
+  align-items: flex-start;
+  margin:5px;
+  background-color: rgb(219, 19, 52);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+    
+  height: 80%;
+  width: 30%;
+ 
+}
+
+.boxb{
+  justify-content: space-around;
+  align-items: flex-end;
+  
+  margin:5px ;
+ 
+  background-color: rgb(219, 19, 52);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+    
+  height: 80%;
+  width: 30%;
+
+}
+
+
+
+

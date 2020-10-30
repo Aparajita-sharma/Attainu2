@@ -1,0 +1,93 @@
+section{
+  height: 100vh;
+  text-align: center;
+}
+
+.navbar{
+  width:100%;
+  height:50px;
+  position:sticky;
+  background-color:pink;
+ 
+}
+
+.navlist{
+  position: absolute;
+  right:20px;
+  top:5px;
+  list-style: none;
+  
+}
+.navitem{
+  display: inline-block;
+  margin-right:60px;
+  text-shadow: 2px;
+
+
+}
+.navitem a {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+
+
+
+
+.scrolltop{
+  position: absolute;
+  bottom: 0;
+  right: 2rem;
+}
+#Hero{
+  background: rgb(179, 112, 124) /*flat ui palot*/
+}
+section#carrer{
+
+  background: crimson;
+}
+
+section#about{
+  background: cyan;
+
+}
+
+section#contect{
+
+background: darkgrey;
+}
+
+.clickme{
+  padding: 10px 20px;
+  background-color: rgb(250, 64, 95);
+  border:none;
+}
+
+.clickme:hover{
+  background-color: red;
+  color:white;
+  box-shadow: 10px 10px 15px 1px black;
+}
+
+.circle{
+  height:100px;
+  width:100px;
+  background-color: rgb(255, 13, 93);
+  border-radius: 50%;
+}
+.rectangle{
+   position: relative;
+}
+.rectangle::before{
+  content:"hi";
+  display: block;
+  height:200px;
+  width:300px;
+  background-color: lightsalmon
+
+}
+.rectangle::after{
+  content:"bye";
+  
+}

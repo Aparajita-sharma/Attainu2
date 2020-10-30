@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    height: 50vh;
+    width:20vw ;
+    box-shadow: 0 0 10px rgba(0, 0 ,0, .3);
+    border-radius: 20px;
+    }
+
+    .card__logo{
+      display: block;
+      margin: 5px 2px;
+    font-size:30px ;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+  .card__item{
+    list-style: none;
+    
+  
+
+    .ion-icon{
+      display: flex;
+      margin-right: 10px;
+      align-items: center;
+    }
+  }
+}

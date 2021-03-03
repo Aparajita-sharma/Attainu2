@@ -1,0 +1,1 @@
+function deciphertext(callbackFunction, stringToBeDeciphered, key);

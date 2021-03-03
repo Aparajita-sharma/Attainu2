@@ -1,0 +1,31 @@
+body {
+  background: #1d1b1bd0;
+}
+/*.bgC {
+  background-color: #000;
+}*/
+.face {
+  color: rgb(0, 0, 255);
+  margin-left: 100px;
+}
+
+.btno {
+  margin-left: 10px;
+}
+.heart {
+  color: red;
+  margin-right: 100;
+}
+
+/*section cards*/
+.cardUp {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+}
+
+.cardDown {
+  background-color: yellow;
+  margin-top: 50px;
+  padding: 20px;
+}

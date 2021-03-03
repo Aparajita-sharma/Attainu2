@@ -1,4 +1,4 @@
-var h1Elements = document.getElementsByTagName("hi");
+var h1Elements = document.getElementsByTagName("hi there");
 console.log(h1Elements);
 
 var divcontainers = document.getElementsByClassName("container");

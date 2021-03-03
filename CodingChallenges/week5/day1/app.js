@@ -13,12 +13,11 @@ var players = [
   { name: "Arthur Ashe", rank: 8 },
   ];
 
-  
+  function Filterplayersrank(players){
+  var topplayersdata =  []
   for( rank in players){
-  if(rank>=10);
-  {
-   console.log("let's see");
-   break;
+  if(rank>=10){ topplayersdata.push(players)
   }
-  console.log(typeof rank, players[rank]);
-  }
+  return topplayersdata
+}
+}

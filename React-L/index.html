@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="singletag"></div>
+  <script crossorigin 
+   src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script crossorigin 
+   src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script>
+    const h1Element = React.createElement('h1',null,'my first react H1 tag');
+    ReactDOM.render(h1Element, document.querySelector(".singletag"));
+  </script>
+</body>
+</html>

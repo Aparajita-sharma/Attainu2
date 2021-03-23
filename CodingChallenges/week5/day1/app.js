@@ -13,11 +13,27 @@ var players = [
   { name: "Arthur Ashe", rank: 8 },
   ];
 
-  function Filterplayersrank(players){
-  var topplayersdata =  []
-  for( rank in players){
-  if(rank>=10){ topplayersdata.push(players)
-  }
-  return topplayersdata
+
+for (var player of players) {
+if(player.rank<=10) {
+  console.log(player)
 }
+
+}
+  
+
+
+arrays=[
+  [1,2,3,4],
+  [1,6,3,4]
+]
+
+for (var value in arrays) {
+
+  if(value[0]==value[1]) {
+    console.log("equal");
+   }
+ else{
+   console.log("not equal")
+ }
 }

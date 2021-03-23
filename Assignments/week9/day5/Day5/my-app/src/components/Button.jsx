@@ -7,7 +7,7 @@ import '.././Button.css';
 class Button extends Component{
 
   isOperator = val =>{
-    return !isNaN(val) || val === "AC" || val === "%"|| val === "+/-"  || val === "." ;
+    // return !isNaN(val) || val === "AC" || val === "%"|| val === "+/-"  || val === "." ;
   }
 
 

@@ -7,4 +7,4 @@ var fullname ='hi'+ firstname + secondname;
 console.log(fullname);
 
 
-alert("press pk if you are 20")
+alert("press ok if you are 20")

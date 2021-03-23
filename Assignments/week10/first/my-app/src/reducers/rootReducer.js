@@ -1,9 +1,12 @@
-import first from './first'
+import first from './first';
+import logged from './logged';
 
 import {combineReducers} from 'redux';
 
 const allReducers = combineReducers({
-    first 
+    first ,
+    logged
+
 
 });
 

@@ -1,33 +1,17 @@
-.columns{
-  border: 1px solid black; 
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-  justify-content: center;
-}
+ .row{
+   border-radius: 10px;
+ }
+  .aside{
+    height: 70px;
+    width:100%;
+  }
 .section{
-  border: 1px solid black;}
+  height: 200px;
+  border-radius: 10px;
+}
 
-  .heading{
-    height: 100px;
-  }
-  .cat{
-    text-align: center;
-    border: none;
-    
-  }
 
-  .kiya{
-    height: 100px;
-  }
-  .jk{
-    height: 50px;
-  }
-  .jx{
-    height: 50px;
-  }
-  .as{
-    height:50px;
-  
-    border-radius: 10px;
+
+  .col{
+    border-radius: 5px;
   }

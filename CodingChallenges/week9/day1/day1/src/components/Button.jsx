@@ -4,9 +4,9 @@ import './Button.css';
 
 function Button() {
   return (
-    <div className="button">
-     hello world
-    </div>
+    <div>
+      <button className='button'>hello world</button>
+     </div>
   );
 }
 export default Button;

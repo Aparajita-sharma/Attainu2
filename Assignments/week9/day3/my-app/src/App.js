@@ -7,9 +7,7 @@ import Title from './components/Title';
 import Page from './components/Page';
 
  class App extends Component {
-
-
-  render() {
+render() {
     return (
       <div>
         <Title/>

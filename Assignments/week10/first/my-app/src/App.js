@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
- import {useSelector, useDispatch} from 'react-redux';
+import {useSelector, useDispatch} from 'react-redux';
 import {increment} from './actions';
 import {decr} from './actions';
 import {lcom} from './actions';

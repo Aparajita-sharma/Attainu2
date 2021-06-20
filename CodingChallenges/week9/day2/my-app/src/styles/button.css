@@ -1,8 +1,9 @@
 .button {
+  margin-top: 2px;
   height: 30px;
   width: 100px;
-  background-color: black;
-  color: azure;
-  border-radius: 10px;
+  background-color: rgb(33, 4, 99);
+  color: rgb(188, 235, 235);
+  border-radius: 5px;
   border: none;
 }

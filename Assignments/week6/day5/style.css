@@ -1,0 +1,14 @@
+.big_box{
+  height: 80vh;
+  width: 80vw;
+  border-radius: 10px;
+  background-color: rgb(192, 192, 192);
+  border: 3px solid rgb(80, 79, 79);
+}
+
+.button{
+  display: block;
+  background-color: gray;
+  color: white;
+  
+}

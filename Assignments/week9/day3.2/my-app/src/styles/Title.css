@@ -1,0 +1,10 @@
+/*.Title{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  height: 80vh;
+  width: 80vw;
+  background: rgb(127, 165, 236);
+  border-radius: 10px;
+}*/

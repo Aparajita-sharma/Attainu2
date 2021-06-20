@@ -1,0 +1,17 @@
+.itemdiv{
+
+display: flex;
+height: 30px;
+width: 200px;
+background-color: yellow;
+border:2px solid red;
+align-items:center;
+ margin : 3px; justify-content: center;
+}
+.btn{
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}

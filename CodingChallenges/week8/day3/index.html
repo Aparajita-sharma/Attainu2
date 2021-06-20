@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ES6 classes</title>
+</head>
+<body>
+  <script>
+    class Fruit{
+      constructor(color,property){
+        this.color= color;
+        this.property= property;
+      }
+      ripegrow(){
+       return `the fruit of ${this.property} is grown`
+        
+      }
+    }
+
+    class Apple extends Fruit{
+      constructor(
+        isred,
+        variety,
+        color,
+        property
+
+      ){
+        super(color,property);
+        this.isred = isred;
+        this.variety = variety
+      }
+    }
+
+    const apple = new Apple (true,"kashmiri","red","sweet");
+
+    console.log(Apple);
+
+
+
+
+    
+     
+
+  </script>
+  
+</body>
+</html>

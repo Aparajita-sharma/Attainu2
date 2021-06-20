@@ -1,0 +1,16 @@
+.out{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.in{
+  width: 10px;
+  height: 10px;
+  background: blue;
+  border-radius: 50%;
+}
